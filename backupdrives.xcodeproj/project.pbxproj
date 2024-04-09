@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0136A8862BC4D5C300CF40C9 /* backupdrivesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136A8852BC4D5C300CF40C9 /* backupdrivesApp.swift */; };
+		0136A8882BC4D5C300CF40C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136A8872BC4D5C300CF40C9 /* ContentView.swift */; };
+		0136A88A2BC4D5C500CF40C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0136A8892BC4D5C500CF40C9 /* Assets.xcassets */; };
+		0136A88D2BC4D5C500CF40C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0136A88C2BC4D5C500CF40C9 /* Preview Assets.xcassets */; };
+		0136A8972BC4D5C600CF40C9 /* backupdrivesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136A8962BC4D5C600CF40C9 /* backupdrivesTests.swift */; };
+		0136A8A12BC4D5C600CF40C9 /* backupdrivesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136A8A02BC4D5C600CF40C9 /* backupdrivesUITests.swift */; };
+		0136A8A32BC4D5C600CF40C9 /* backupdrivesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136A8A22BC4D5C600CF40C9 /* backupdrivesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0136A8932BC4D5C600CF40C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0136A87A2BC4D5C300CF40C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0136A8812BC4D5C300CF40C9;
+			remoteInfo = backupdrives;
+		};
+		0136A89D2BC4D5C600CF40C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0136A87A2BC4D5C300CF40C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0136A8812BC4D5C300CF40C9;
+			remoteInfo = backupdrives;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0136A8822BC4D5C300CF40C9 /* backupdrives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backupdrives.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0136A8852BC4D5C300CF40C9 /* backupdrivesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backupdrivesApp.swift; sourceTree = "<group>"; };
+		0136A8872BC4D5C300CF40C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0136A8892BC4D5C500CF40C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0136A88C2BC4D5C500CF40C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0136A8922BC4D5C600CF40C9 /* backupdrivesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backupdrivesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0136A8962BC4D5C600CF40C9 /* backupdrivesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backupdrivesTests.swift; sourceTree = "<group>"; };
+		0136A89C2BC4D5C600CF40C9 /* backupdrivesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backupdrivesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0136A8A02BC4D5C600CF40C9 /* backupdrivesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backupdrivesUITests.swift; sourceTree = "<group>"; };
+		0136A8A22BC4D5C600CF40C9 /* backupdrivesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backupdrivesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0136A87F2BC4D5C300CF40C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A88F2BC4D5C600CF40C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A8992BC4D5C600CF40C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0136A8792BC4D5C300CF40C9 = {
+			isa = PBXGroup;
+			children = (
+				0136A8842BC4D5C300CF40C9 /* backupdrives */,
+				0136A8952BC4D5C600CF40C9 /* backupdrivesTests */,
+				0136A89F2BC4D5C600CF40C9 /* backupdrivesUITests */,
+				0136A8832BC4D5C300CF40C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0136A8832BC4D5C300CF40C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0136A8822BC4D5C300CF40C9 /* backupdrives.app */,
+				0136A8922BC4D5C600CF40C9 /* backupdrivesTests.xctest */,
+				0136A89C2BC4D5C600CF40C9 /* backupdrivesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0136A8842BC4D5C300CF40C9 /* backupdrives */ = {
+			isa = PBXGroup;
+			children = (
+				0136A8852BC4D5C300CF40C9 /* backupdrivesApp.swift */,
+				0136A8872BC4D5C300CF40C9 /* ContentView.swift */,
+				0136A8892BC4D5C500CF40C9 /* Assets.xcassets */,
+				0136A88B2BC4D5C500CF40C9 /* Preview Content */,
+			);
+			path = backupdrives;
+			sourceTree = "<group>";
+		};
+		0136A88B2BC4D5C500CF40C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0136A88C2BC4D5C500CF40C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0136A8952BC4D5C600CF40C9 /* backupdrivesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0136A8962BC4D5C600CF40C9 /* backupdrivesTests.swift */,
+			);
+			path = backupdrivesTests;
+			sourceTree = "<group>";
+		};
+		0136A89F2BC4D5C600CF40C9 /* backupdrivesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0136A8A02BC4D5C600CF40C9 /* backupdrivesUITests.swift */,
+				0136A8A22BC4D5C600CF40C9 /* backupdrivesUITestsLaunchTests.swift */,
+			);
+			path = backupdrivesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0136A8812BC4D5C300CF40C9 /* backupdrives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0136A8A62BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrives" */;
+			buildPhases = (
+				0136A87E2BC4D5C300CF40C9 /* Sources */,
+				0136A87F2BC4D5C300CF40C9 /* Frameworks */,
+				0136A8802BC4D5C300CF40C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = backupdrives;
+			productName = backupdrives;
+			productReference = 0136A8822BC4D5C300CF40C9 /* backupdrives.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0136A8912BC4D5C600CF40C9 /* backupdrivesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0136A8A92BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrivesTests" */;
+			buildPhases = (
+				0136A88E2BC4D5C600CF40C9 /* Sources */,
+				0136A88F2BC4D5C600CF40C9 /* Frameworks */,
+				0136A8902BC4D5C600CF40C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0136A8942BC4D5C600CF40C9 /* PBXTargetDependency */,
+			);
+			name = backupdrivesTests;
+			productName = backupdrivesTests;
+			productReference = 0136A8922BC4D5C600CF40C9 /* backupdrivesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0136A89B2BC4D5C600CF40C9 /* backupdrivesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0136A8AC2BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrivesUITests" */;
+			buildPhases = (
+				0136A8982BC4D5C600CF40C9 /* Sources */,
+				0136A8992BC4D5C600CF40C9 /* Frameworks */,
+				0136A89A2BC4D5C600CF40C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0136A89E2BC4D5C600CF40C9 /* PBXTargetDependency */,
+			);
+			name = backupdrivesUITests;
+			productName = backupdrivesUITests;
+			productReference = 0136A89C2BC4D5C600CF40C9 /* backupdrivesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0136A87A2BC4D5C300CF40C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0136A8812BC4D5C300CF40C9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0136A8912BC4D5C600CF40C9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0136A8812BC4D5C300CF40C9;
+					};
+					0136A89B2BC4D5C600CF40C9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0136A8812BC4D5C300CF40C9;
+					};
+				};
+			};
+			buildConfigurationList = 0136A87D2BC4D5C300CF40C9 /* Build configuration list for PBXProject "backupdrives" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0136A8792BC4D5C300CF40C9;
+			productRefGroup = 0136A8832BC4D5C300CF40C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0136A8812BC4D5C300CF40C9 /* backupdrives */,
+				0136A8912BC4D5C600CF40C9 /* backupdrivesTests */,
+				0136A89B2BC4D5C600CF40C9 /* backupdrivesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0136A8802BC4D5C300CF40C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0136A88D2BC4D5C500CF40C9 /* Preview Assets.xcassets in Resources */,
+				0136A88A2BC4D5C500CF40C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A8902BC4D5C600CF40C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A89A2BC4D5C600CF40C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0136A87E2BC4D5C300CF40C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0136A8882BC4D5C300CF40C9 /* ContentView.swift in Sources */,
+				0136A8862BC4D5C300CF40C9 /* backupdrivesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A88E2BC4D5C600CF40C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0136A8972BC4D5C600CF40C9 /* backupdrivesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0136A8982BC4D5C600CF40C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0136A8A12BC4D5C600CF40C9 /* backupdrivesUITests.swift in Sources */,
+				0136A8A32BC4D5C600CF40C9 /* backupdrivesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0136A8942BC4D5C600CF40C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0136A8812BC4D5C300CF40C9 /* backupdrives */;
+			targetProxy = 0136A8932BC4D5C600CF40C9 /* PBXContainerItemProxy */;
+		};
+		0136A89E2BC4D5C600CF40C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0136A8812BC4D5C300CF40C9 /* backupdrives */;
+			targetProxy = 0136A89D2BC4D5C600CF40C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0136A8A42BC4D5C600CF40C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0136A8A52BC4D5C600CF40C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0136A8A72BC4D5C600CF40C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"backupdrives/Preview Content\"";
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrives;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0136A8A82BC4D5C600CF40C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"backupdrives/Preview Content\"";
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrives;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0136A8AA2BC4D5C600CF40C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrivesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backupdrives.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/backupdrives";
+			};
+			name = Debug;
+		};
+		0136A8AB2BC4D5C600CF40C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrivesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backupdrives.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/backupdrives";
+			};
+			name = Release;
+		};
+		0136A8AD2BC4D5C600CF40C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrivesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = backupdrives;
+			};
+			name = Debug;
+		};
+		0136A8AE2BC4D5C600CF40C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR6CP84Q5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayush.backupdrivesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = backupdrives;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0136A87D2BC4D5C300CF40C9 /* Build configuration list for PBXProject "backupdrives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0136A8A42BC4D5C600CF40C9 /* Debug */,
+				0136A8A52BC4D5C600CF40C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0136A8A62BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0136A8A72BC4D5C600CF40C9 /* Debug */,
+				0136A8A82BC4D5C600CF40C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0136A8A92BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrivesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0136A8AA2BC4D5C600CF40C9 /* Debug */,
+				0136A8AB2BC4D5C600CF40C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0136A8AC2BC4D5C600CF40C9 /* Build configuration list for PBXNativeTarget "backupdrivesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0136A8AD2BC4D5C600CF40C9 /* Debug */,
+				0136A8AE2BC4D5C600CF40C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0136A87A2BC4D5C300CF40C9 /* Project object */;
+}
